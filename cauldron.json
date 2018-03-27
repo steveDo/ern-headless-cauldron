@@ -10,16 +10,28 @@
               "name": "1.0.0",
               "isReleased": false,
               "binary": null,
-              "yarnLocks": {},
+              "yarnLocks": {
+                "container": "8287724aa98146e18216f88dd6c5283eb8568dd8"
+              },
               "nativeDeps": [],
               "container": {
-                "miniApps": [],
-                "nativeDeps": [],
+                "miniApps": [
+                  "https://github.com/steveDo/ern-headless-miniapp.git"
+                ],
+                "nativeDeps": [
+                  "react-native@0.54.0"
+                ],
                 "jsApiImpls": []
               },
-              "codePush": {}
+              "codePush": {},
+              "containerVersion": "1.0.0"
             }
-          ]
+          ],
+          "config": {
+            "containerGenerator": {
+              "containerVersion": "1.0.0"
+            }
+          }
         }
       ]
     }
